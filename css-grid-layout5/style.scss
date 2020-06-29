@@ -43,12 +43,12 @@ h4 {
 	line-height: 1;
 }
 h5 {
-	font-size: 1em;
+	font-size: 0.8em;
 	line-height: 1.6;
 	font-weight: 700;
 }
 p {
-	font-size: 1.3em;
+	font-size: 1.1em;
 	line-height: 1.6;
 	font-weight: 500;
 }
@@ -66,7 +66,7 @@ section {
 	height: calc(100vh - 40px);
 	display: grid;
 	grid-template-columns: auto;
-	grid-template-rows: 0.7fr auto 0.3fr auto auto auto;
+	grid-template-rows: 0.7fr auto 0.4fr auto auto auto;
 	.void {
 		background-color: var(--red);
 		grid-column: 1;
@@ -173,7 +173,6 @@ section {
 			grid-column: 4/5;
 			grid-row: 5/6;
 			border: 12px solid var(--red);
-			padding: 20px;
 		}
 	}
 }
@@ -187,6 +186,6 @@ section {
 		font-size: 6em;
 	}
 	h2 {
-		font-size: 4em;
+		font-size: 3.6em;
 	}
 }
